@@ -1,14 +1,7 @@
 <?php
-/*
-تم التعريب بواسطة : @RSAIED
 
-جميع قنواتنا : @SAIEDCH
-
-ملاحظة : الملف ايراني 🌚
-*/
 error_reporting(0);
 define('API_KEY','1958377342:AAEFm3uVHvabDKSHEz3w_M3MomabsmAaKxo');
-//----------------------------------------------------------------------
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
 $ch = curl_init();
@@ -22,7 +15,6 @@ var_dump(curl_error($ch));
 return json_decode($res);
 }
 }
-//----------------------------------------------------------------------
 $update = json_decode(file_get_contents('php://input'));
 $payam = $update->message;
 $chat_id = $payam->chat->id;
@@ -50,10 +42,7 @@ file_put_contents("data/$chatid.json",json_encode($user2,true));
 bot("editmessagetext", [
 'chat_id'=>$chatid,
 'message_id'=>$messageid,
-'text'=>"ارسل رسالتك الآن 🚶‍♂️
-سيتم ارسالها إلى :
-[$id](tg://user?id=$id)
-",
+'text'=>"ارسل رسالتك الآن",
 'parse_mode'=>"markdown",
 'reply_markup'=>json_encode([
 'inline_keyboard'=>[
