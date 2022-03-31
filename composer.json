@@ -1,13 +1,1 @@
-{
-    "name": "okteto/bot-php-upload-by-me",
-    "description": "Develop PHP applications directly in your Kubernetes cluster with Okteto",
-    "type": "project",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Ramiro Berrelleza",
-            "email": "rberrelleza@gmail.com"
-        }
-    ],
-    "require": {}
-}
+{}
