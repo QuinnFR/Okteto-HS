@@ -2,7 +2,7 @@
 /////**@Cheksizlik**\\\\\
 //Xvest\\
 //●●●●2019-yil●●●●//
-$token = "5072808300:AAE2izT4p_5xBZjx8YDE4lSYUv-OyzduT4I";
+$token = "1958377342:AAEFm3uVHvabDKSHEz3w_M3MomabsmAaKxo";
 $admin = "5177196243";   
 $botim = "Kirdi_chiqdi_gr_robot";   ///////*@*Belgisini yozmang
 function bot($method,$datas=[]){
